@@ -1,8 +1,8 @@
 score = 0
 # Question 1
-answer1 = input("How do you say Battery in Maori \n a. Puhiko \n b. Takiputa \n c. Patuhi \n d. Tiriata \n Answer: ")
+question1 = input("How do you say Battery in Maori \n a. Puhiko \n b. Takiputa \n c. Patuhi \n d. Tiriata \n Answer: ").lower()
 
-if answer1 == "a" or answer1 == "Puhiko":
+if question1 == "a" or question1 == "puhiko":
   score += 5
   print("Correct!")
   print("Score: ", score)
@@ -13,9 +13,9 @@ else:
   print("\n")
 
 # Question 2
-answer2 = input("How do you say Wifi in Te Reo? \n a. Waea Atamai \n b. Kupuhana \n c. Tuafafine \n d. Ahokore \n Answer: ")
+question2 = input("How do you say Wifi in Te Reo? \n a. Waea Atamai \n b. Kupuhana \n c. Tuafafine \n d. Ahokore \n Answer: ").lower()
 
-if answer2 == "d" or answer2 == "Ahokore":
+if question2 == "d" or question2 == "ahokore":
   score += 5
   print("Correct!")
   print("Score: ", score)
@@ -26,9 +26,9 @@ else:
   print("\n")
 
 # Question 3
-answer3 = input("How do you say Podcast in Te Reo? \n a. Pawhiri \n b. Pahorangi \n c. Nga Tautuhinga \n d. Kiriahua \n Answer: ")
+question3 = input("How do you say Podcast in Te Reo? \n a. Pawhiri \n b. Pahorangi \n c. Nga Tautuhinga \n d. Kiriahua \n Answer: ").lower()
 
-if answer3 == "b" or answer3 == "Pahorangi":
+if question3 == "b" or question3 == "pahorangi":
   score += 5
   print("Correct!")
   print("Score: ", score)
@@ -39,9 +39,9 @@ else:
   print("\n")
 
 # Question 4 
-answer4 = input("How do you say Folder in Te Reo? \n a. Paeahua \n b. Kopaki \n c. Rakau Pumahara \n d. Rorohiko \n Answer: ")
+question4 = input("How do you say Folder in Te Reo? \n a. Paeahua \n b. Kopaki \n c. Rakau Pumahara \n d. Rorohiko \n Answer: ").lower()
 
-if answer4 == "b" or answer4 == "Kopaki":
+if question4 == "b" or question4 == "kopaki":
   score += 5
   print("Correct!")
   print("Score: ", score)
@@ -52,9 +52,9 @@ else:
   print("\n")
 
 # Question 5
-answer5 = input("How do you say Text in Te Reo? \n a. Patuhi \n b. Kupuhana \n c. Tikiake \n d. Tiaki \n Answer: ")
+question5 = input("How do you say Text in Te Reo? \n a. Patuhi \n b. Kupuhana \n c. Tikiake \n d. Tiaki \n Answer: ").lower()
 
-if answer5 == "a" or answer5 == "Patuhi":
+if question5 == "a" or question5 == "patuhi":
   score += 5
   print("Correct!")
   print("Score: ", score)
